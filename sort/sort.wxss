@@ -1,0 +1,22 @@
+/* pages/sort/sort.wxss */
+.my-search {
+  background-color: rgb(245, 245, 245);
+  width: 700rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 60rpx;
+  margin: 0 auto;
+  font-weight: 200;
+  font-size: small;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+.good,.room,.food {
+  margin-top: 15rpx;
+  display: inline-block; 
+}
+.title {
+ text-align: center;
+}

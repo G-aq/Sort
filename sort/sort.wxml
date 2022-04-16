@@ -1,0 +1,21 @@
+<!--pages/sort/sort.wxml-->
+<view>
+  <navigator url="../../subpkg/search/search" class="my-search">
+    <van-icon name="search" size="15px" class="search" />
+    <text class="placeholder" style="margin-left: 10rpx;">搜索</text>
+  </navigator>
+  <view class="list">
+  <navigator url="../../subpkg/goods/goods" class="good">
+    <van-icon name="gift" size="60px" color="#1BA4F0" />
+    <view class="title">土特产</view>
+  </navigator>
+  <navigator url="../../subpkg/rooms/rooms" class="room">
+    <van-icon name="wap-home"  size="60px" color="#1BA4F0"/>
+    <view class="title">预定房间</view>
+  </navigator>
+  <navigator url="../../subpkg/food/food" class="food">
+    <van-icon name="bill"  size="60px" color="#1BA4F0" />
+    <view class="title">点菜</view>
+  </navigator>
+</view>
+</view>
