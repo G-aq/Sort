@@ -1,0 +1,9 @@
+<!--subpkg/rooms/miniSearch/minsearch.wxml-->
+<view>
+  <view class="title">搜索</view>
+  <view class="search-item">
+    <van-icon name="search" size="20px" color="blue" />
+    <input type="text" style="margin-left: 10rpx;" placeholder="你想去哪儿？" class="search-box" />
+    <!-- <input type="text" style="margin-left: 10rpx;"/>搜索 -->
+  </view>
+</view>

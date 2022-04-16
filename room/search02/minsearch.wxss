@@ -1,0 +1,24 @@
+/* subpkg/rooms/miniSearch/minsearch.wxss */
+.title {
+  text-align: center;
+  font-size: large;
+  margin-top: 160rpx;
+  margin-bottom: 30rpx;
+}
+.search-item {
+  border: 2rpx solid rgb(245, 245, 245);
+  box-shadow: 4rpx 4rpx 10rpx rgb(143, 140, 140);
+  /* background-color: rgb(245, 245, 245); */
+  display: flex;
+   border-radius: 40rpx;
+   width: 600rpx;
+   margin: 0 auto;
+}
+.search-box {
+  display: inline-block;
+  /* background-color: rgb(245, 245, 245); */
+  height: 100rpx;
+  line-height: 50rpx;
+  border-radius: 40rpx;
+  font-weight: 200;
+}
